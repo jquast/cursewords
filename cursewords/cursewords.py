@@ -1,17 +1,19 @@
 #! /usr/bin/env python3
 
-import argparse
-import itertools
+# std imports
 import os
 import sys
 import time
+import argparse
 import textwrap
+import itertools
 import threading
 
+# 3rd party
 import puz
-
 from blessed import Terminal
 
+# local
 from . import chars
 
 

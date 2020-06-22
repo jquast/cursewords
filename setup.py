@@ -1,5 +1,8 @@
-from setuptools import setup, find_packages
+# std imports
 from os import path
+
+# 3rd party
+from setuptools import setup, find_packages
 
 here = path.abspath(path.dirname(__file__))
 
