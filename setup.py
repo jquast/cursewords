@@ -34,12 +34,10 @@ setup(
     python_requires='>=3.4',
     install_requires=reqs,
     package_data={
-        'cursewords': ['version']
-    },
+        'cursewords': ['version']},
     entry_points={
         'console_scripts': [
             'cursewords=cursewords:main',
         ],
     },
-    keywords='puz crossword crosswords xword xwords puzzle acrosslite'
-)
+    keywords='puz crossword crosswords xword xwords puzzle acrosslite')
